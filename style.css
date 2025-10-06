@@ -1,0 +1,80 @@
+/* ===== General Styling ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #faf7f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e07a5f;
+  padding: 15px 40px;
+  color: white;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* ===== Sections ===== */
+.section {
+  padding: 60px 100px;
+}
+
+.section h2 {
+  color: #3d405b;
+  margin-bottom: 15px;
+}
+
+/* ===== Skills Section ===== */
+.skills-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background: #f4a261;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* ===== Projects ===== */
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  background-color: #3d405b;
+  color: white;
+  padding: 15px;
+}
